@@ -1,0 +1,45 @@
+/* CSS for google-homepage */
+
+body {
+    font-family: 'arial';
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-item a {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    padding: 0 0.4rem;
+    font-size: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+.d-flex{
+    margin: 1rem 1.5rem;
+    max-width: 100%;
+}
+
+.btn-primary{
+    padding: .4em .8rem;
+    margin-left: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: #4683ea;
+    border-radius: .15rem;
+}
+
+.fa-th{
+    color: gray;
+    padding: 0.5rem 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.fa-th:hover {
+    color:black;
+}
