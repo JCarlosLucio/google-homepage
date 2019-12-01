@@ -4,10 +4,6 @@ body {
     font-family: 'arial';
 }
 
-ul {
-    list-style: none;
-}
-
 .nav-item a {
     color: rgb(70, 70, 70);
     text-decoration: none;
@@ -16,9 +12,10 @@ ul {
     margin: 0.7rem 0;
 }
 
-.d-flex{
-    margin: 1rem 1.5rem;
+.navbar{
+    margin: 1rem 0%;
     max-width: 100%;
+    padding: 0%;
 }
 
 .btn-primary{
@@ -35,7 +32,7 @@ ul {
     padding: 0.5rem 1rem;
 }
 
-a:hover {
+.nav-item a:hover {
     text-decoration: underline;
     color: black;
 }
@@ -43,3 +40,4 @@ a:hover {
 .fa-th:hover {
     color:black;
 }
+
