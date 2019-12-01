@@ -31,6 +31,10 @@ body {
     color: gray;
     padding: 0.5rem 1rem;
 }
+.fa-search{
+    color: rgb(179, 179, 179);
+
+}
 
 .nav-item a:hover {
     text-decoration: underline;
@@ -43,4 +47,21 @@ body {
 
 #google-image{
     height: 14rem;
+}
+#search-box{
+    border: 1px solid #dfe1e5;
+    width: 30rem;
+    border-radius: 5rem;
+    padding: 0.6rem;
+    margin: 2rem;
+}
+
+#google-search{
+    width: 25rem;
+    border: none;
+    background-color: white;
+}
+
+#search-box:hover{
+    box-shadow: 0 0 5px rgba(160, 160, 160, 0.5);
 }
