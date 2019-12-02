@@ -92,3 +92,32 @@ body {
     font-size: 0.8rem;
     margin-top: 1.8rem;
 }
+
+#footer{
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #5F6368;
+}
+
+#footer span{
+    font-size: 0.9rem;
+    padding-left: 0.9rem;
+}
+
+#footer nav{
+    border-top: 1px solid rgb(219, 219, 219);
+    margin: 0;
+    padding-left: 0.9rem;
+    height: 2.5rem;
+
+}
+
+#footer a{
+    color: #5F6368;
+    font-size: 0.8rem;
+    padding-left: 0.9rem;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+}
