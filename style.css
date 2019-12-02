@@ -4,13 +4,6 @@ body {
     font-family: 'arial';
 }
 
-.nav-item a {
-    color: rgb(70, 70, 70);
-    text-decoration: none;
-    padding: 0 0.4rem;
-    font-size: 0.8rem;
-    margin: 0.7rem 0;
-}
 
 .navbar{
     margin: 1rem 0%;
@@ -26,6 +19,12 @@ body {
     background-color: #4683ea;
     border-radius: .15rem;
 }
+.btn-light{
+    margin: 0 0.4rem;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    font-size: 0.9rem;
+}
 
 .fa-th{
     color: gray;
@@ -33,7 +32,32 @@ body {
 }
 .fa-search{
     color: rgb(179, 179, 179);
+    
+}
 
+.nav-item a {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    padding: 0 0.4rem;
+    font-size: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+.fa-th:hover {
+    color:black;
+}
+
+.btn-primary:hover{
+    background-color: #4683ea;
+}
+
+.btn-light:hover {
+    color:black;
+    border: 1px solid rgb(206, 205, 205);
+    box-shadow: 0 1px rgba(160, 160, 160, 0.1);
+    background-color: #f2f2f2;
+    transition-delay: 0ms;
+    transition-duration: 0ms;
 }
 
 .nav-item a:hover {
@@ -41,19 +65,16 @@ body {
     color: black;
 }
 
-.fa-th:hover {
-    color:black;
-}
-
 #google-image{
     height: 14rem;
 }
+
 #search-box{
     border: 1px solid #dfe1e5;
     width: 30rem;
     border-radius: 5rem;
     padding: 0.6rem;
-    margin: 2rem;
+    margin: 1.8rem 0 ;
 }
 
 #google-search{
@@ -65,3 +86,4 @@ body {
 #search-box:hover{
     box-shadow: 0 0 5px rgba(160, 160, 160, 0.5);
 }
+
